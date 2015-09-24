@@ -1,0 +1,26 @@
+{
+  "name": "cond.Ninja.JS",
+  "version": "0.0.0",
+  "authors": [
+    "Cleber de Moraes Goncalves <cleber.programmer@hotmail.com>"
+  ],
+  "description": "Retorna uma função que atuara com uma cadeia de responsabilidade, este modulo recebe uma lista de [predicado, transformadora], todos os argumentos sao passado para a funcao predicado e para a funcao transformadora. Se nenhum dos predicados retornar true, a funcao retornara undefined",
+  "main": "cond.js",
+  "keywords": [
+    "javascript"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/Bibizzy/cond.Ninja.JS",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "Ninja.JS": "*",
+    "apply.Ninja.JS": "*",
+    "iterator.Ninja.JS": "*"
+  }
+}
